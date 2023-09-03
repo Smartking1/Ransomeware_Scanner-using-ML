@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-loaded_model=pickle.load(open('C:/Users/hp/Documents/Ransomware/sed_folder/malware_predictor.sav','rb'))
+loaded_model=pickle.load(open('malware_predictor.sav','rb'))
 
 def performance_prediction(input_data):
     
